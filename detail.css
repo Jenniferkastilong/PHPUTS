@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Rubik+80s+Fade&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --background-color: #fcfcfd;
+  --primary-color: #6d8197;
+  --secondary-color: #d1d7df;
+  --accent-color: #bdc6d0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: #0e1114;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#debung {
+  background-color: var(--secondary-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 20px;
+  width: 60%;
+  max-width: 100%;
+  max-height: 80vh;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  margin: auto;
+}
+
+#debung::-webkit-scrollbar {
+  display: none;
+}
+
+.back{
+    color: #0e1114;
+}
+
+.back:hover {
+  color: #415970;
+}
+
+.add {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add:hover {
+  background-color: #415970;
+}
+
+form button {
+  border-radius: 5px;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form select,
+form input[type="text"] {
+  background-color: var(--accent-color);
+  color: #0e1114;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.swal2-input {
+  background-color: var(--accent-color);
+  color: #0e1114;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+form input[type="text"]:focus,
+.swal2-input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.listname {
+  display: block;
+  width: 90%;
+  text-align: left;
+  padding: 8px;
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  border-color: var(--primary-color);
+  transition: background-color 0.3s;
+}
+
+.listname:focus {
+  border-color: var(--primary-color);
+}
+
+.listname:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.edit,
+.delete {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 0 13px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete{
+    padding: 0 15px;
+}
+
+.edit:hover,
+.delete:hover {
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+/* .edit:hover {
+  color: #ffd700;
+}
+
+.delete:hover {
+  color: #ff4500;
+} */
+
+.bung {
+  margin-bottom: 15px;
+}
+
+#search {
+  position: relative;
+  width: 100%;
+}
+
+#search input {
+  position: absolute;
+  width: 60%;
+  right: 0;
+}
+
+.search {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  padding-top: 20px;
+  right: 0;
+}
+
+button.search:hover {
+  background: transparent;
+}
+
+.order {
+  cursor: pointer;
+}
+
+#order2,
+#srch {
+  margin-top: 15px;
+}

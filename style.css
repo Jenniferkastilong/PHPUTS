@@ -1,0 +1,151 @@
+body{
+    background-color: pink;
+    padding-left: 30%;
+    padding-right: 30%;
+    align-items: center;
+    font-family: Arial;
+}
+
+h1{
+    text-align: center;
+}
+
+/* .fIpt{
+    display: block;
+    width: 100%;
+    height: 30px;
+} */
+
+/* .fIpt2{
+    display: block;
+    width: 60%;
+    height: 30px;
+    margin: 10px auto;
+    background-color: rgb(0, 34, 255);
+    color: white;
+    border-radius: 6px;
+    border: none;
+} */
+
+div.d1{
+    margin: 20px;
+}
+
+/* button{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+} */
+
+.img{
+    height: 100px;
+}
+
+.d2{
+    margin-bottom: 20px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+button.act{
+    text-shadow: 0px 0px 0px black;
+    color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+    border: none;
+    cursor: pointer;
+}
+
+button:active{
+    cursor: default;
+}
+
+
+.bwrap {
+    position: relative;
+}
+
+.oubt {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background: white;
+    text-align: left;
+}
+
+.inbt {
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    height: 24px;
+    right: 20px;
+    background: brown;
+}
+
+.inbt2{
+    right: 60px;
+}
+
+.palette-color1{
+    background-color: #fcfcfd; /*background 60%*/
+    background-color: #6d8197; /*primary 30%*/
+    background-color: #a8abc1; /*secondary 10%*/
+    background-color: #0e1114; /*text*/
+    background-color: #a8abc1; /*secondary 30%*/
+    background-color: #9190b0; /*accent 10%*/
+}
+
+.palette-color2{
+    background-color: #ede8c9; /*background 60%*/
+    background-color: #39565a; /*primary 30%*/
+    /*background-color: ; secondary 10%*/
+    background-color: #ede8c9; /*text*/
+
+    /*background-color: ; secondary 30%*/
+    background-color: #2f2e2e; /*accent 10%*/
+}
+
+.palette-color3{
+    background-color: #f4efeb; /*background 60%*/
+    background-color: #22495a; /*primary 30%*/
+    background-color: #d8c7bd; /*secondary 10%*/
+    background-color: #22495a; /*text*/
+
+    background-color: #d8c7bd; /*secondary 30%*/
+    background-color: #486573; /*accent 10%*/
+
+    background-color: #e8dcd5;
+    background-color: #414141; /*logo login #e8dcd5*/
+}
+
+.palette-color4{
+    background-color: #e6f3ff; /*background 60%*/
+    background-color: #000000; /*primary 30%*/
+    background-color: #fbfdff; /*secondary 10%*/
+    background-color: #000000; /*text*/
+
+    background-color: #fbfdff; /*secondary 30%*/
+    background-color: #cfe6fa; /*accent 10%*/
+}
+
+.palette-color1-summer{
+    background-color: #fffaf2; /*background 60%*/
+    background-color: #ffdc62; /*primary 30%*/
+    background-color: #e9dcd3; /*secondary 10%*/
+    background-color: #0e1114; /*text*/
+
+    background-color: #e9dcd3; /*secondary 30%*/
+    /*background-color: ; accent 10%*/
+
+    background-color: #315a20;
+}
+
+.palette-color2-summer{
+    background-color: #fff6eb; /*background 60%*/
+    background-color: #415941; /*primary 30%*/
+    background-color: #ced6ce; /*secondary 10%*/
+    background-color: #324532; /*text*/
+
+    background-color: #ced6ce; /*secondary 30%*/
+    background-color: #f6e6d2; /*accent 10%*/
+}
